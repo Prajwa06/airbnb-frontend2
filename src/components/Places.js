@@ -59,7 +59,7 @@ export default function Places() {
       {/* all listed places */}
       <div className="mt-5">
           {places.length >0 && places.map((place)=>(
-            <div key={place._id} onClick={ ()=>{toDetails(place._id)} } className=" flex  cursor-pointer gap-4 bg-gray-100 p-4 mx-2 rounded-2xl ">
+            <div key={place._id} onClick={ ()=>{toDetails(place._id)} } className=" flex  cursor-pointer my-2 gap-4 bg-gray-100 p-4 mx-2 rounded-2xl ">
             
               <div  className="flex w-32 h-32 grow shrink-0">
                 {place.photos.length >0 && (

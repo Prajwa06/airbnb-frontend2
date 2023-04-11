@@ -39,7 +39,7 @@ function App() {
   
 
   // axios.defaults.baseURL="https://airbnb-backend-iota.vercel.app";
-  axios.defaults.baseURL="http://localhost:8080";
+  axios.defaults.baseURL="https://backend-airbnb.vercel.app";
   return (
     <div className="App">
     <Header/>
